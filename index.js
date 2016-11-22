@@ -34,7 +34,7 @@ app.get('/', function(req, res){
 				}else{
 					res.status(404).send();
 				}
-				console.log('Method Get for /cars/:id working');
+				console.log('Method Get for /cars/:num working');
 			});
 							// POST /cars
 							app.post('/cars', function(req, res){
